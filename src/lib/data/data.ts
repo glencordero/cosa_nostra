@@ -26,5 +26,12 @@ export interface Address {
     "Asset Reallocation"
   ]
 
+  export const legends: Array<string> = [
+    "Charles Luciano",
+    "John Gotti",
+    "Al Capone",
+    "Joseph Bonanno",
+    "Frank Costello"
+  ]
 
 
