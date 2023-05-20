@@ -4,6 +4,7 @@
 </script>
 
 <h1>Welcome to La Cosa Nostra</h1>
+<h2>Benvenuto!</h2>
 
 <img src="https://i.ytimg.com/vi/PFsk9Rjz4_U/maxresdefault.jpg" width="400" alt="welcome">
 

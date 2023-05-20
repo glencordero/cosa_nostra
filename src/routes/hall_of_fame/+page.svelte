@@ -7,15 +7,13 @@
   <div>Hall of Fame Inductees</div>
 </h2>
 
-<!-- <ul>
-    {#each legends as legend}
-      <li><a href={`/hall_of_fame/${legend.name}`}>{legend.name}</a></li>
-    {/each}
-</ul> -->
-
+<img src="https://m.media-amazon.com/images/M/MV5BMWZiZjVkYTMtNzE1Zi00NGUyLWJhNWUtYTI0YTUyMmRiYjk0XkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_.jpg" width="500" alt="moblegends">
   <ul>
     {#each legends as legend, index}
       <li><a href={`/hall_of_fame/${[index]}`}>{legend.name}</a></li>
     {/each}
   </ul>
+
+<p>Congratulazioni signori!</p>
+<p> Who will we induct next year?</p>
   
