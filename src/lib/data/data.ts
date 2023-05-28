@@ -20,7 +20,7 @@ export interface Address {
     "...and many more -- Inquire today!"
   ]
 
-  export const services: Array<string> = [
+  export const servicesProvided: Array<string> = [
     "Persuasion",
     "Protection",
     "Trash Removal",
@@ -35,4 +35,4 @@ export interface Address {
     {name:"Frank Costello", bio:"A high profile mobster, known for his tight-lipped testimony and denial of mob existence during the national mafia trials. Costello was an influential mobster who survived several Mob wars, government scrutiny, and an assassination attempt to control the powerful national Commission of Mafia bosses founded by Lucky Luciano.", pic:"https://upload.wikimedia.org/wikipedia/commons/5/5b/Frank_Costello_-_Kefauver_Committee.jpg"}
   ]
 
-
+  
