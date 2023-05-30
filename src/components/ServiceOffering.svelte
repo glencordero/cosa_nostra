@@ -7,6 +7,7 @@
 <img src={service.pic}>
 <p>{service.description}</p>
 <p>Cost: ${service.price}</p>
+<button>Add to Cart</button>
 </div>
 
 <style>
@@ -17,6 +18,7 @@
         border: 1px solid gray;
         padding-left: 25px;
         padding-right: 25px;
+        padding-bottom: 25px;
         border-radius: 10px;
         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2)
     }    
