@@ -1,5 +1,11 @@
 <script>
     export let service
+    let buttonRef;
+
+    function handleClick() {
+        console.log('Button clicked!');
+    }
+
 </script>
 
 <div>
@@ -7,7 +13,7 @@
 <img src={service.pic}>
 <p>{service.description}</p>
 <p>Cost: ${service.price}</p>
-<button>Add to Cart</button>
+<button ref={buttonRef} on:click={handleClick}>Add to Cart</button>
 </div>
 
 <style>

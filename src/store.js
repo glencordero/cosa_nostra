@@ -21,3 +21,6 @@ function createServices() {
 }
 
 export const servicesStore = createServices();  
+
+const cartItems = []
+
