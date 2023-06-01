@@ -16,11 +16,17 @@ function createServices() {
 
     return {
         subscribe,
-        getServiceByIndex: _getServiceByIndex
+        getServiceByIndex: _getServiceByIndex,
+        add: (service) => update(services => {
+            // console.log("clicked button")
+            return [...services, service]
+          })
     };
 }
 
 export const servicesStore = createServices();  
 
-const cartItems = []
+
+
+
 

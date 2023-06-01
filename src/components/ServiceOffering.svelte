@@ -1,19 +1,19 @@
 <script>
     export let service
-    let buttonRef;
-
-    function handleClick() {
-        console.log('Button clicked!');
-    }
+    import {servicesStore} from '../store.js'
+    import {cartStore} from '../cart_store.js'
+   
 
 </script>
 
+{$cartStore.length}
 <div>
 <h2>{service.type}</h2>
 <img src={service.pic}>
 <p>{service.description}</p>
 <p>Cost: ${service.price}</p>
-<button ref={buttonRef} on:click={handleClick}>Add to Cart</button>
+<button on:click={cartStore.add(service)}>Add to Cart</button>
+<!-- <button on:click={BookingStore.add(destination)}>Book Now</button> -->
 </div>
 
 <style>
