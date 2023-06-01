@@ -6,7 +6,7 @@
 
 </script>
 
-{$cartStore.length}
+The number of items in the cart is: {$cartStore.length}
 <div>
 <h2>{service.type}</h2>
 <img src={service.pic}>
