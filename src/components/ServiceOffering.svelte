@@ -1,7 +1,7 @@
 <script>
     export let service
-    import {servicesStore} from '../store.js'
-    import {cartStore} from '../cart_store.js'
+    import {servicesStore} from '../lib/data/store.js'
+    import {cartStore} from '../lib/data/cart_store.js'
    
 
 </script>

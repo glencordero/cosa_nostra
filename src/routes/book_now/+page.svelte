@@ -1,5 +1,5 @@
 <script>    
-    import {servicesStore} from "../../store.js"
+    import {servicesStore} from "../../lib/data/store.js"
     import ServiceOffering from "../../components/ServiceOffering.svelte";
 </script>
 

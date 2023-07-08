@@ -1,12 +1,11 @@
 <script>
-    export let data
-    const {name, bio, pic} = data.legend
+    import { gangstersStore } from "$lib/data/store";
+    import {page} from "$app/stores";
+    import Gangster from "../../../components/Gangster.svelte" 
+    // get gangster for corresponding id
+    let gangster = $gangstersStore[$page.params.id]
 </script>
 
-<h2>{name}</h2>
-<img src="{pic}" width="250">
+<Gangster {gangster}>
 
-<br>
-<br>
-
-<p>{bio}</p>
+</Gangster>
